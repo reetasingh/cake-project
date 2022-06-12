@@ -1,0 +1,16 @@
+apiVersion: food.github.com.reetas/v1alpha1
+kind: Cake
+metadata:
+  name: cake-fail-webhook-validation
+spec:
+  # TODO(user): Add fields here
+  flavor: choclate
+  occasion: happy birthday
+  messageOnCake: happy wala birthday
+  toppings:
+    - strawberry
+    - choclate
+  delivery:
+    deliveryType: pickup
+    deliveryAddress: mumbai
+
